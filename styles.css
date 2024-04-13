@@ -1,0 +1,136 @@
+html {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.8rem;
+  margin: 0;
+  line-height: 2.8rem;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  font-size: 5.6rem;
+  line-height: 7rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.container {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  color: #fff;
+  width: 15rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+  background-color: #000;
+}
+
+.btn-dark {
+  background-color: #13183f;
+}
+
+.btn-pink {
+  background-color: #f74780;
+}
+
+.btn-dark-pink {
+  background: linear-gradient(#4851ff, #f02aa6);
+}
+
+/* .hero {
+    position: relative;
+    overflow: hidden;
+  } */
+
+.hero-card {
+  width: 46rem;
+}
+
+.hero-img-container {
+  width: 50rem;
+  height: 50rem;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 83%;
+  background: url("./assets/image-hero-desktop.webp") no-repeat center center /
+    cover;
+  overflow: hidden;
+}
+
+main {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-card {
+  height: 32rem;
+  padding: 10rem;
+  flex: 1 1 20%;
+  background-color: #fff;
+  border-radius: 2rem;
+  margin: 1rem;
+  box-shadow: 5px 0 10px #dadbe7, -5px 0 10px #dadbe7, 0 5px 10px #dadbe7;
+}
+
+.check-out {
+  background: linear-gradient(#f02aa6, #ff6f48);
+  color: #fff;
+}
+
+.link-secondary {
+  color: #f74780;
+}
+
+.icon-container {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+}
+
+footer {
+  background-color: #13183f;
+}
+
+footer section {
+  display: flex;
+  height: 12rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+}
